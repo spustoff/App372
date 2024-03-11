@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ResponseModel" representedClassName="ResponseModel" syncable="YES" codeGenerationType="class">
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="contacts" optional="YES" attributeType="String"/>
+        <attribute name="cover_letter" optional="YES" attributeType="String"/>
+        <attribute name="publishing_date" optional="YES" attributeType="String"/>
+        <attribute name="response_date" optional="YES" attributeType="String"/>
+        <attribute name="salary" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SubscriptionModel" representedClassName="SubscriptionModel" syncable="YES" codeGenerationType="class">
+        <attribute name="cost" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="VacancyModel" representedClassName="VacancyModel" syncable="YES" codeGenerationType="class">
+        <attribute name="company" optional="YES" attributeType="String"/>
+        <attribute name="contacts" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="salary" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="schedule" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+</model>
