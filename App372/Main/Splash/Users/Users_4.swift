@@ -16,7 +16,7 @@ struct Users_4: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg2")
                 .ignoresSafeArea()
             
             VStack {
@@ -30,7 +30,7 @@ struct Users_4: View {
                 VStack(alignment: .center, spacing: 4, content: {
                     
                     Text("Don't miss anything")
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .font(.system(size: 25, weight: .semibold))
                         .multilineTextAlignment(.center)
                     
@@ -55,7 +55,7 @@ struct Users_4: View {
                         .font(.system(size: 15, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 15).fill(Color("primary")))
+                        .background(RoundedRectangle(cornerRadius: 15).fill(Color("primary2")))
                         .padding()
                 })
             }

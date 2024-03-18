@@ -13,7 +13,7 @@ struct Reviewers_1: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg2")
                 .ignoresSafeArea()
             
             VStack {
@@ -27,7 +27,7 @@ struct Reviewers_1: View {
                 VStack(alignment: .center, spacing: 4, content: {
                     
                     Text("Add your responses")
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .font(.system(size: 25, weight: .semibold))
                         .multilineTextAlignment(.center)
                     
@@ -50,7 +50,7 @@ struct Reviewers_1: View {
                         .font(.system(size: 15, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 15).fill(Color("primary")))
+                        .background(RoundedRectangle(cornerRadius: 15).fill(Color("primary2")))
                         .padding()
                 })
             }
